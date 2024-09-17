@@ -15,6 +15,6 @@ def main():
                 return
         screen.fill((0, 0, 0))
         pygame.display.flip() # display update
-        dt = clock.tick(60)/1000
+        dt = clock.tick(60)/1000 # limit the frame rate and store the delta time in seconds
 if __name__ == "__main__":
     main()
